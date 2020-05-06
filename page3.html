@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>big brother is watching you</title>
+  </head>
+  <body>
+    <div class="navBar">
+      <a href="index.html">HOME</a>
+      <a href="#tracking">LOCATION TRACKING</a>
+      <a href="#surveillance">MASS SURVEILLANCE</a>
+      <a href="#implications">FURTHER IMPLICATIONS</a>
+    </div>
+      <!-- <hr id = "tracking"> -->
+    <div class="locationTracking" id = "tracking">
+      <h1>A BRIEF OVERVIEW ON LOCATION TRACKING</h1>
+      <p>Every time you agree to an app's terms of service, your data is being compiled.  This personal data can include your name, date of birth, email address, IP adress, location, and more.  Some apps and websites that do this include FaceBook, Instagram, Amazon, WhatsApp, and Google.  This is Google Maps below, and it is one obvious example of a website that can find your location.  </p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.4774996550345!2d-73.99864958475948!3d40.729517444481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599af55395c1%3A0xda30743171b5f305!2sNew%20York%20University!5e0!3m2!1sen!2sus!4v1588733922303!5m2!1sen!2sus" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <p>On this website, we can find your location, too.  Click the button to see your coordinates.</p>
+      <button onclick="getLocation()">TRY IT</button>
+      <p id="latitudeLongitude">
+      </p>
+      <p>Data brokers then sell this information to digital ad networks for profit.  That's part of the reason why you get ads that are specifically tailored to you.</p>
+      <p>Though these companies say that they only track you when the app is active,  the <i>New York Times</i> discovered that many companies have such precise location tracking that the data can easily be parsed through to find a person's address.  Furthermore, it's not only ad companies that are buying; the U.S. government is purchasing your information, as well.  Why might this, in particular, be a problem?</p>
+    </div>
+    <div class="massSurveillance" id = "surveillance">
+      <h1>MASS SURVEILLANCE IN THE UNITED STATES</h1>
+      <div class="surveillanceText">
+        <p1>Mass surveillance in the United States dates back to World War I wartime monitoring and censorship.  Over time, surveillance was institutionalized by law enforcement and intelligence agencies to silence political opposition and maintain political and social order.</p1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/COINTELPRO_-_Jean_Seberg.jpg" alt="">
+        <p2>One prominent example of this happening is during the Civil Rights Movement of the 1960's, with the COINTELPRO projects.  This was a series of secret and illegal projects conducted by the FBI, targeting groups deemed to have subversive politics, such as the Black Panther Party.  Leaders of the Black Panther Party were silenced by being discredited, falsely convicted and imprisoned, or even assassinated.  The image on the right is a document from this program seeking to discredit Jean Seberg, an actress who supported the Black Panther Party financially.Other groups by COINTELPRO included Chicano liberation activists, anti-Vietnam war protesters, and Native American activists.  While COINTELPRO was ultimately terminated in the 1971, some of the tactics employed during this program are allegedly still used today.</p2>
+        <p3>Following the September 11 attacks in 2001, mass surveillance grew with new security acts such as the Patriot Act, signed into law by George W. Bush, as seen in the image on the right.  The Patriot Act infringed upon the rights of Americans, allowing law enforcement to search someone's home or business without their consent or knowledge, FBI to search telephone, e-mail, and financial records without a court order, and expanding access to business and financial records, among many other new authorizations, some of which were later deemed unconstitutional.</p3>
+        <img src="https://cdn.britannica.com/28/153228-050-AE858CF0/Pres-George-W-Bush-East-Room-of-October-26-2001.jpg" alt="">
+        <p4>But what does this have to do with apps and location tracking?  Well, while the Supreme Court ruled in <i>Carpenter v. United States</i> that the U.S. government could not subpoena location data from cell phone companies, the government is still able to purchase this information from data brokers in massive volumes.  And, because the <i>New York Times</i> showed how simple it is to identify a person based on their location data, it stands to reason that the United States could also easily identify people to </p4>
+      </div>
+    </div>
+    <div class="furtherImplications" id = "implications">
+      <h1>FURTHER IMPLICATIONS</h1>
+      <div class="implicationsText">
+        <p>Recently, the Department of Homeland Security has purchased location data for $25,000 from a company called Venntel, and are using it for immigration enforcement as a way to discover and then deport undocumented immigrants, according to the <i>Washington Post</i>.  Though the government's ability to collect our data seems to be an overreach and in violation of the Fourth Amendment, Congress has still not passed sufficient privacy laws to protect the civil liberties of the American public.  So, for the meantime, it would make sense to be careful about giving your apps permission to see your location.</p>
+        <img src="https://miro.medium.com/max/3200/1*E5ZzoY4Sukl27XpGNbR2AA.png" alt="">
+      </div>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

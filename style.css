@@ -1,0 +1,297 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background-color: #254021;
+}
+
+.backgroundVideo{
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+  z-index: -9999;
+  width: 100%;
+  height: 100%;
+}
+
+.btn1{
+  position: absolute;
+  top: 70%;
+  transform: translateX(75%);
+  padding: 20px;
+  padding-bottom: 15px;
+  font-size: 5vmin;
+  color: #ffffff;
+  border: solid 5px #69f542;
+  border-radius: 40px;
+  background-color: #242424;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition: background-color: 0.5s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.backgroundVideo2{
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+  z-index: -9999;
+  width: 100%;
+  height: 100%;
+}
+
+.termsOfService{
+  line-height: 1.5;
+  display: block;
+  background-color: #ffffff;
+  padding-top: 0px;
+  padding: 20px;
+  margin: 10vmin;
+  border: solid 5px #69f542;
+  border-radius: 40px;
+}
+
+.termsOfService h1{
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.termsOfService p{
+  font-size: 10px;
+}
+
+.btn2{
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-left: 20%;
+  padding: 15px;
+  padding-bottom: 10px;
+  font-size: 5vmin;
+  color: #69f542;
+  background-color: #242424;
+  border-radius: 10px;
+  border: none;
+  transition: background-color: 0.5s;
+}
+
+.btn3{
+  padding: 15px;
+  padding-bottom: 10px;
+  font-size: 5vmin;
+  color: #69f542;
+  background-color: #242424;
+  border-radius: 10px;
+  border: none;
+  transition: background-color: 0.5s;
+}
+
+.btn1:hover{
+  background-color: #000000;
+}
+.btn2:hover{
+  background-color: #000000;
+}
+.btn3:hover{
+  background-color: #000000;
+}
+
+.navBar{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vmin;
+  background-color: #000000;
+  z-index: 9999;
+}
+
+.navBar a{
+  margin-top: 10px;
+  color:#ffffff;
+  float:left;
+  font-size: 20px;
+  padding: 20px;
+  transition: color: 0.5s;
+  text-decoration: none;
+}
+
+.navBar a:hover{
+  color: #69f542;
+}
+
+.locationTracking{
+  margin: 11vmin;
+  margin-top: 20vmin;
+  padding: 20px;
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+.locationTracking h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.locationTracking button{
+  transform: translateX(320%);
+  padding: 20px;
+  padding-bottom: 15px;
+  font-size: 5vmin;
+  color: #ffffff;
+  border: solid 5px #69f542;
+  border-radius: 40px;
+  background-color: #242424;
+  z-index: -40;
+}
+
+.locationTracking button:hover{
+  background-color: #000000;
+}
+
+#latitudeLongitude{
+  display: flex;
+  justify-content: center;
+  color: #69f542;
+  background-color: #242424;
+}
+
+.massSurveillance{
+  margin: 11vmin;
+  margin-top: 0;
+  padding: 20px;
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+.massSurveillance h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.surveillanceText {
+  display: grid;
+  grid-template-columns: repeat(8,6fr);
+  grid-column-gap: 10px;
+}
+
+.surveillanceText p1{
+  grid-column:span 8;
+  margin-bottom: 15px;
+}
+
+.surveillanceText img {
+  width: 100%;
+  grid-column: span 3;
+}
+.surveillanceText p2, p3{
+  grid-column: span 5;
+}
+
+.surveillanceText p4 {
+  grid-column: span 8;
+}
+
+.furtherImplications{
+  margin: 11vmin;
+  margin-top: 0;
+  padding: 20px;
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+.furtherImplications img{
+  width: 100%;
+  grid-column: span 8;
+}
+
+.furtherImplications h1{
+  display: flex;
+  justify-content: center;
+}
+
+.locationTracking2{
+  margin: 11vmin;
+  margin-top: 20vmin;
+  padding: 20px;
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+.locationTracking2 h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.locationTracking2 p{
+  text-decoration: line-through;
+}
+
+.locationTracking2 button{
+  transform: translateX(320%);
+  padding: 20px;
+  padding-bottom: 15px;
+  font-size: 5vmin;
+  color: #ffffff;
+  border: solid 5px #69f542;
+  border-radius: 40px;
+  background-color: #242424;
+  z-index: -40;
+}
+
+.locationTracking2 button:hover{
+  background-color: #000000;
+}
+
+.surveillanceText2 {
+  display: grid;
+  grid-template-columns: repeat(8,6fr);
+  grid-column-gap: 10px;
+  text-decoration: line-through;
+
+}
+
+.surveillanceText2 p1{
+  grid-column:span 8;
+  margin-bottom: 15px;
+}
+
+.surveillanceText2 img {
+  width: 100%;
+  grid-column: span 3;
+}
+.surveillanceText2 p2, p3{
+  grid-column: span 5;
+}
+
+.surveillanceText2 p4 {
+  grid-column: span 8;
+}
+
+.implicationsText2 p{
+  text-decoration: line-through;
+}
