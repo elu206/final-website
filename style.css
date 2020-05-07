@@ -7,6 +7,10 @@ body{
   background-color: #254021;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .backgroundVideo{
   top: 0;
   left: 0;
@@ -54,12 +58,15 @@ body{
 }
 
 .termsOfService{
-  line-height: 1.5;
+  line-height: 1;
+
   display: block;
   background-color: #ffffff;
   padding-top: 0px;
   padding: 20px;
   margin: 10vmin;
+  margin-left: 50vmin;
+  margin-right: 50vmin;
   border: solid 5px #69f542;
   border-radius: 40px;
 }
@@ -77,10 +84,10 @@ body{
 .btn2{
   margin: 20px;
   margin-bottom: 0px;
-  margin-left: 20%;
+  margin-left: 65px;
   padding: 15px;
   padding-bottom: 10px;
-  font-size: 5vmin;
+  font-size: 3vmin;
   color: #69f542;
   background-color: #242424;
   border-radius: 10px;
@@ -91,7 +98,7 @@ body{
 .btn3{
   padding: 15px;
   padding-bottom: 10px;
-  font-size: 5vmin;
+  font-size: 3vmin;
   color: #69f542;
   background-color: #242424;
   border-radius: 10px;
@@ -191,7 +198,8 @@ body{
 .surveillanceText {
   display: grid;
   grid-template-columns: repeat(8,6fr);
-  grid-column-gap: 10px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .surveillanceText p1{

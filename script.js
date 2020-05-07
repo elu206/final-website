@@ -10,5 +10,5 @@ function getLocation(){
 }
 
 function showPosition(position) {
-  x.innerHTML = "Your latitude is: " + position.coords.latitude + "<br>Your longitude is: " + position.coords.longitude + "<br>Sure, it's not completely accurate, but it's close enough.";
+  x.innerHTML = "Your latitude is: " + position.coords.latitude + "<br>Your longitude is: " + position.coords.longitude + "<br>(It's not completely accurate, but it's close enough.)";
 }
